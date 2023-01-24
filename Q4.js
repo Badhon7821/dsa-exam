@@ -1,13 +1,3 @@
-// A tree is a data structure that simulates a hierarchical tree structure, with a root value and subtrees of children, represented as a set of linked nodes. Each node of a tree holds its own data and a reference to its children.
-
-// There are several types of tree data structures, the most common ones are:
-
-// Binary Tree: a tree data structure in which each node has at most two children, which are referred to as the left child and the right child.
-
-// Binary Search Tree (BST): a tree data structure in which each node has at most two children, left and right, and satisfies the binary search tree property, where for each node, all elements in its left subtree are less than the node, and all elements in its right subtree are greater than the node.
-
-// AVL Tree: a self-balancing binary search tree, where the difference in height of the left and right subtrees of any node is at most one.
-
 class Node {
   constructor(value) {
     this.value = value;
