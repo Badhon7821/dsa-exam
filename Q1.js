@@ -41,3 +41,6 @@ function bubbleSort(arr) {
 }
 
 console.log(coherence(arr1, arr2));
+
+// time complexity O(n^2)
+// space complexity O(1)
